@@ -6,6 +6,10 @@ require "csv"
 		def initialize
 			@entries = []
 		end
+
+		def napalm
+			@entries = []
+		end
 	
 	def add_entry(name, phone_number, email)
 		index = 0
